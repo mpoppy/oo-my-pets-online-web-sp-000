@@ -38,7 +38,7 @@ class Owner
   end
 
   def sell_pets
-
+    Dog.all.map{|dog| dog.mood = "nervous"}
   end
 
   def self.all
