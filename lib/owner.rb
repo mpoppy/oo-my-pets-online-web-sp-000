@@ -44,7 +44,7 @@ class Owner
 
   def list_pets
     dog_count = @dogs.count
-    @cats
+    cat_count = @cats.count
   end
 
   def self.all
